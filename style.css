@@ -729,3 +729,46 @@ body{
       }
       
 }
+
+@media screen  and (max-width: 500px){
+      .NavRightLink{
+            display: none;
+      }
+      .NavLeft{
+            margin-left: 0px;
+      }
+      .Section2{
+            padding: 20px;
+      }
+      .Section4Img , .Section3Img{
+            width: 36%;
+            height: 24%;
+      }    
+      .Section3RboxDisp {
+            padding: 10px;
+            font-size: 3vw;
+      }    
+      .Section3Rbox, .Section4Rbox {
+            width: 85vw;
+      }
+      .Section3Rboxfooter {
+            justify-content: space-around;
+      }
+      .Section6Card {
+            width: 85%;
+            height: 45vh;
+      }
+      .Section6CardIcon {
+            width: 18vw;
+            height: 11vh;
+      }        
+      .Section6CardIcon img {
+            width: 8vw;
+      }
+      .Section6Cardhead, .Section6CardLink {
+            font-size: 5vw;
+      }
+      .Section6Cardsub {
+            font-size: 4vw;
+      }
+}
